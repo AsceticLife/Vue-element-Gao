@@ -90,6 +90,7 @@ export default {
   },
   methods: {
     handleSetLineChartData(type) {
+      console.log('测试');
       this.lineChartData = lineChartData[type]
     }
   }
